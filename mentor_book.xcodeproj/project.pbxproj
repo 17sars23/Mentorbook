@@ -14,6 +14,10 @@
 		965D52EC202C2DD50059D2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965D52EA202C2DD50059D2BE /* LaunchScreen.storyboard */; };
 		965D52F7202C2DD50059D2BE /* mentor_bookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D52F6202C2DD50059D2BE /* mentor_bookTests.swift */; };
 		965D5302202C2DD50059D2BE /* mentor_bookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D5301202C2DD50059D2BE /* mentor_bookUITests.swift */; };
+		96CE29BA202D834500D6DE7F /* mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE29B9202D834500D6DE7F /* mentor.swift */; };
+		96CE29BF202D977500D6DE7F /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CE29BC202D977500D6DE7F /* nagata.jpg */; };
+		96CE29C0202D977500D6DE7F /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CE29BD202D977500D6DE7F /* ryo.jpg */; };
+		96CE29C1202D977500D6DE7F /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 96CE29BE202D977500D6DE7F /* taithi.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		965D52FD202C2DD50059D2BE /* mentor_bookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentor_bookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		965D5301202C2DD50059D2BE /* mentor_bookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentor_bookUITests.swift; sourceTree = "<group>"; };
 		965D5303202C2DD50059D2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CE29B9202D834500D6DE7F /* mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentor.swift; sourceTree = "<group>"; };
+		96CE29BC202D977500D6DE7F /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		96CE29BD202D977500D6DE7F /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		96CE29BE202D977500D6DE7F /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 				965D52F5202C2DD50059D2BE /* mentor_bookTests */,
 				965D5300202C2DD50059D2BE /* mentor_bookUITests */,
 				965D52DF202C2DD50059D2BE /* Products */,
+				96CE29BB202D977500D6DE7F /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +112,7 @@
 				965D52E8202C2DD50059D2BE /* Assets.xcassets */,
 				965D52EA202C2DD50059D2BE /* LaunchScreen.storyboard */,
 				965D52ED202C2DD50059D2BE /* Info.plist */,
+				96CE29B9202D834500D6DE7F /* mentor.swift */,
 			);
 			path = mentor_book;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				965D5303202C2DD50059D2BE /* Info.plist */,
 			);
 			path = mentor_bookUITests;
+			sourceTree = "<group>";
+		};
+		96CE29BB202D977500D6DE7F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				96CE29BC202D977500D6DE7F /* nagata.jpg */,
+				96CE29BD202D977500D6DE7F /* ryo.jpg */,
+				96CE29BE202D977500D6DE7F /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				965D52EC202C2DD50059D2BE /* LaunchScreen.storyboard in Resources */,
+				96CE29BF202D977500D6DE7F /* nagata.jpg in Resources */,
+				96CE29C1202D977500D6DE7F /* taithi.JPG in Resources */,
+				96CE29C0202D977500D6DE7F /* ryo.jpg in Resources */,
 				965D52E9202C2DD50059D2BE /* Assets.xcassets in Resources */,
 				965D52E7202C2DD50059D2BE /* Main.storyboard in Resources */,
 			);
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CE29BA202D834500D6DE7F /* mentor.swift in Sources */,
 				965D52E4202C2DD50059D2BE /* ViewController.swift in Sources */,
 				965D52E2202C2DD50059D2BE /* AppDelegate.swift in Sources */,
 			);
